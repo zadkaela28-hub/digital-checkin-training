@@ -1,0 +1,47 @@
+תמונות וגופן | גרסת העיצוב החדשה | 08.11.2026
+
+התמונות הן המחשות שנוצרו בכלי image_gen המובנה של OpenAI. אין בהן תיעוד של מטופלים, של עובדי איכילוב או של מרפאה אמיתית. הן אינן מציגות ממשק קבלה מאושר. לוגו איכילוב נוסף לקובצי האתר ב-15.11.2026 מתוך קובץ שסיפקה המשתמשת. זכויות הלוגו שייכות לבעליו. הקובץ המקורי נשמר ללא שינוי ב-assets/images/ichilov-logo.png, והסמל מוצג ליד שם איכילוב בראש האתר.
+פרטי דגם יצירת התמונה ותנאי החשבון אינם חשופים לכלי בפרויקט זה; אין לייחס להם שם דגם או רישיון שלא נבדקו.
+
+קבצים שנשמרו באתר
+assets/images/reception-hero.webp
+assets/images/reception-hero-small.webp
+assets/images/reception-conversation.webp
+assets/images/daniel-portrait.webp
+
+הקבצים הומרו ל-WebP ומוקטנים לצורכי טעינה. גרסת הפתיחה הקטנה משמשת למסכים צרים. המקורות שנוצרו נשארו בתיקיית generated_images של Codex.
+
+פרומפט תמונת הפתיחה
+Use case: photorealistic-natural. Asset type: hero photograph for a modern Hebrew digital-service learning website. Create a premium editorial photograph, landscape 3:2. A kind female hospital reception employee in her early thirties wearing a simple pale blue blouse, no medical scrubs or stethoscope, stands beside an older male visitor in casual sage shirt at a modern freestanding self-check-in kiosk in a bright contemporary outpatient clinic. They are looking naturally at the kiosk, employee offering calm help, visitor participating himself with one hand near screen. Realistic Israeli/Mediterranean people, believable anatomy and hands, quiet candid moment not posing at camera. Kiosk left of center with screen angled away so no readable UI; people around center-right, waist-up medium shot. Fresh daylight, cool white architecture, soft teal glass, hints of cobalt blue and warm peach, a green plant in softly blurred background. Premium lifestyle photography, tactile authentic detail, airy, optimistic, soft film grain, no exaggerated smiles. Image is illustrative, fictional clinic. No actual hospital branding, no logos, no lettering, no watermarks, no private information. Faces and hands fully within safe central 80% for cropping. Do not render a webpage or graphic layout.
+
+פרומפט תמונת השיחה
+Use case: photorealistic-natural. Asset type: supporting editorial photo in a modern Hebrew hospital reception training website. A candid medium close-up of a female reception employee in a cobalt blue everyday blouse listening attentively to a middle-aged female visitor in a warm cream cardigan in a bright contemporary outpatient clinic. Visitor is engaged, reception employee is seated at same eye level, friendly but natural expressions, subtle gesture explaining something. Photograph the two in three-quarter profile, together within central 80 percent of landscape 3:2 frame. Warm morning sunlight, bright ivory walls, pale blue and soft peach accents, green plant blurred behind, no clinical procedures, no medical scrubs, no doctor stereotype. Premium authentic human-centered editorial photography, realistic skin and hands, understated, sophisticated, optimistic. No text, logos, badges with text, hospital signs, watermark, visible private information, or website UI. Fictional people and location.
+
+פרומפט דמותו של דניאל
+Use case: identity-preserve. Asset type: portrait photo of Daniel, fictional patient for an interactive training scenario. Reference image is the character reference for the older silver-haired man with glasses and sage shirt ONLY, preserve his recognizable face, age, hairstyle, glasses and shirt. Create a new square head-and-shoulders editorial portrait of this man, relaxed friendly attentive expression, facing slightly toward camera, bright soft defocused outpatient clinic background in pale cool blue. No other people in foreground, no kiosks, no text, no logo, no badges, no watermark. Realistic natural skin and warm daylight. Leave margin around head. This is a fictional illustrative character.
+תמונת הפתיחה שימשה תמונת ייחוס לדמות בלבד.
+
+גופן
+Heebo Variable. Copyright 2014 The Heebo Project Authors.
+מקור: https://github.com/google/fonts/tree/main/ofl/heebo
+מקור הפרויקט: https://github.com/OdedEzer/heebo
+SIL Open Font License 1.1, הקובץ המלא מצורף ב-assets/fonts/ofl-heebo.txt.
+קובץ הגופן משולב מקומית ללא שירות טעינה חיצוני.
+
+יש לשלב את תיעוד הכלי בנספח השימוש ב-AI של הקבוצה בהתאם להנחיות הקורס ולשימוש בפועל.
+
+עדכון ממשק הפתיחה, 22.11.2026
+איורי הספר, הברק, המסך וסימון הבחירה נוספו כקוד SVG מקורי בתוך הפרויקט, בסיוע Codex. לא הועתקו מספריית אייקונים ולא נוספו תמונות חיצוניות. אנימציות הבחירה והרקעים נוצרו בקוד CSS. הלוגו, התמונות, הגופן והודעות הרישוי הקיימות נשמרו.
+
+סימולציית המרפאה, 22.11.2026
+תמונה חדשה נוצרה באמצעות כלי image_gen המובנה של OpenAI. תמונת הפתיחה הקיימת שימשה ייחוס לדמויות ולביגוד, ולא כהדמיה של מערכת בית החולים. אלה אנשים ומרפאה בדיוניים. הקובץ המקורי נשמר מחוץ לחבילה ב-project-evidence/clinic-scene-source.png. רקע הסימולציה שולב בקבצים assets/images/clinic-simulation.webp ו-assets/images/clinic-simulation-small.webp. הטקסט המשתנה, מסגרת העמדה והבקרים נכתבו ב-HTML וב-CSS, והם אינם חלק מהתמונה. בסבב הליטוש שלאחר יצירת התמונה לא הוחלפו תמונות.
+
+הפרומפט המלא שנשלח לכלי
+Use case: photorealistic-natural. Asset type: high quality photographic stage background for a Hebrew interactive check-in simulation, landscape 3:2, 1536x1024. The reference is ONLY a character/wardrobe reference for the reception employee and older male visitor. Create a NEW wider full body scene of these two fictional people in a contemporary outpatient clinic lobby, extremely realistic candid editorial photography. The silver-haired man with glasses and sage shirt stands in the LEFT OUTER QUARTER (body center x=19%), facing slightly inward. The curly-haired female reception employee in a pale blue everyday blouse and navy trousers stands in the RIGHT OUTER QUARTER (body center x=82%), facing slightly inward, listening with an open natural gentle explanatory gesture. They are engaged with one another and glance towards the central space. BOTH people's heads, hands and shoes fully visible, human proportions, real natural skin texture, believable anatomy, no exaggerated smiles. Leave the ENTIRE CENTRAL THIRD of the image clear and unoccupied, just bright background and floor, so a real interactive freestanding kiosk will be composited there in HTML later. No kiosk, no monitor, no desk in that central space; it must be unobstructed from y=20% down to floor. Premium airy Israeli outpatient clinic architecture with curved frosted pale blue glass, light gray microcement floor, a few soft cobalt waiting chairs far back, daylight and soft shadows, shallow but not excessive depth of field, warm human atmosphere. Camera straight on, level, eye height, natural 50mm look, minimal perspective distortion. Palette white, blue, subtle teal accents, no peach or beige wall. NO lettering, NO text, NO logo, NO watermark, NO other foreground people, NO medical scrubs, NO stethoscopes, NO tablet in hands. Not a webpage or mockup. This image will be the photographic background behind a live HTML device so precise empty central placement is essential.
+
+
+תיקון פריים הסימולציה, 22.11.2026
+לפי בקשת המשתמשת נוצרה בכלי image_gen המובנה גרסה פנורמית של תמונת המרפאה, כדי להציג יותר מגוף הדמויות במחשב. תמונת המרפאה המקורית שימשה כקובץ לעריכה ולשמירת זהות הדמויות. מידות הפלט בפועל: 2172x724, יחס 3:1. המקור נשמר ב-project-evidence/clinic-panorama-source.png, וגרסת WebP מחליפה את assets/images/clinic-simulation.webp. בתצוגה צרה נשמר הפריים המקורי ב-clinic-simulation-small.webp באמצעות רכיב picture. אלה דמויות בדיוניות; אין כאן תיעוד של אנשי צוות או מטופלים אמיתיים. הטקסט והמסך החי אינם חלק מהתמונה. קובץ הגרסה הקודמת נשמר בארכיון לפני העדכון.
+
+פרומפט העריכה המלא
+Use case: identity-preserve / precise composition edit. Edit target: supplied fictional clinic scene. Create a VERY WIDE PANORAMIC version, aspect ratio 4:1, ideally 3072x768. This will be a shallow full-width photo banner behind an interactive HTML kiosk. Preserve the SAME fictional man with silver hair, glasses, sage shirt on the LEFT and SAME curly-haired female reception employee in a pale blue blouse and navy trousers on the RIGHT, preserving their realistic faces, age, wardrobe, anatomy, natural listening gesture and clinic architecture. CRITICAL: zoom the camera OUT and reframe so BOTH adults are visible from head to at least hips within this shallow panoramic frame. They should appear smaller than the supplied close crop, with breathing room above their heads and their hands and waist visible. Person centers at x=18% and x=82%, with the entire central 35% unobstructed for a kiosk composited later in code. Keep empty bright clinic background there; do NOT generate a kiosk or a screen. No one in center. Keep the scene airy with daylight, white clinic, frosted blue glass, cobalt waiting chairs, light gray floor. Match lighting and perspective, sharp realistic skin and fabric, no plastic AI skin. Frame is horizontal and WIDE, not a tall image, no excessive empty floor. Do not distort bodies to fit. No text, no logo, no watermark, no webpage, no other foreground people. The goal is the same recognizable professional encounter, at a wider camera distance with more of each person's body visible in a thin website banner.
